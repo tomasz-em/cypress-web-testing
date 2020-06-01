@@ -1,11 +1,11 @@
 {
   "name": "cypress_testy",
-  "desription": "Just Cypress tests",
+  "desription": "Introduction to Cypress Testing Framework",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cypress open",
-    "test_headless": "./node_modules/.bin/cypress run",
+    "test:headless_all": "./node_modules/.bin/cypress run",
     "test:google": "./node_modules/.bin/cypress run --spec cypress/integration/googleTest.spec.js",
     "test:form": "./node_modules/.bin/cypress run --spec cypress/integration/formTest.spec.js",
     "test:angular": "./node_modules/.bin/cypress run --spec cypress/integration/angularFormTest.spec.js"
